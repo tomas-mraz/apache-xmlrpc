@@ -1,0 +1,14 @@
+# java build artifacts
+*.class
+*.jar
+*.war
+*.bat
+
+# maven build target
+**/target
+
+# eclipse project artifacts
+.settings
+.project
+.classpath
+

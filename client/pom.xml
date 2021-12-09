@@ -29,6 +29,7 @@
   </parent>
   <artifactId>xmlrpc-client</artifactId>
   <name>Apache XML-RPC Client Library</name>
+  <version>3.1.4</version>
   <build>
     <plugins>
       <plugin>

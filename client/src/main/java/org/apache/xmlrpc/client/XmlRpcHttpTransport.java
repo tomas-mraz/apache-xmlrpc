@@ -130,6 +130,7 @@ public abstract class XmlRpcHttpTransport extends XmlRpcStreamTransport {
 	protected void initHttpHeaders(XmlRpcRequest pRequest) throws XmlRpcClientException {
 		XmlRpcHttpClientConfig config = (XmlRpcHttpClientConfig) pRequest.getConfig();
 		setRequestHeader("Content-Type", "text/xml");
+		setRequestHeader("Accept", "text/xml");
         if(config.getUserAgent() != null)
             setRequestHeader("User-Agent", config.getUserAgent());
         else
